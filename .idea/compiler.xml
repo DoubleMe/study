@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="common_main" target="1.8" />
+      <module name="common_test" target="1.8" />
+      <module name="consumer_main" target="1.8" />
+      <module name="consumer_test" target="1.8" />
+      <module name="mini-dubbo-base_main" target="1.8" />
+      <module name="mini-dubbo-base_test" target="1.8" />
+      <module name="mini-dubbo-bean_main" target="1.8" />
+      <module name="mini-dubbo-bean_test" target="1.8" />
+      <module name="mini-dubbo-registy_main" target="1.8" />
+      <module name="mini-dubbo-registy_test" target="1.8" />
+      <module name="mini-dubbo-rpc_main" target="1.8" />
+      <module name="mini-dubbo-rpc_test" target="1.8" />
+      <module name="mini-dubbo-spring_main" target="1.8" />
+      <module name="mini-dubbo-spring_test" target="1.8" />
+      <module name="mini-dubbo-test_main" target="1.8" />
+      <module name="mini-dubbo-test_test" target="1.8" />
+      <module name="mini-dubbo_base_main" target="1.8" />
+      <module name="mini-dubbo_base_test" target="1.8" />
+      <module name="mini-dubbo_bean_main" target="1.8" />
+      <module name="mini-dubbo_bean_test" target="1.8" />
+      <module name="mini-dubbo_registy_main" target="1.8" />
+      <module name="mini-dubbo_registy_test" target="1.8" />
+      <module name="mini-dubbo_test_main" target="1.8" />
+      <module name="mini-dubbo_test_test" target="1.8" />
+      <module name="provider-share-impl_main" target="1.8" />
+      <module name="provider-share-impl_test" target="1.8" />
+      <module name="provider-share-service_main" target="1.8" />
+      <module name="provider-share-service_test" target="1.8" />
+      <module name="spring_main" target="1.8" />
+      <module name="spring_test" target="1.8" />
+      <module name="study_main" target="1.8" />
+      <module name="study_test" target="1.8" />
+      <module name="zookeeper_main" target="1.8" />
+      <module name="zookeeper_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
