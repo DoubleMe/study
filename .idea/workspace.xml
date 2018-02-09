@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50026d87-088d-4148-b91c-4e63503d91db" name="Default" comment="" />
+    <list default="true" id="adc45dcb-c688-45da-a535-b34302ba5402" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/chenhm/java8/FunctionFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/chenhm/java8/StreamDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/chenhm/java8/StreamWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/chenhm/java8/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/chenhm/java8/StudentDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/chenhm/java8/lambda/BaseConvert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/chenhm/java8/lambda/Convert.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java-base/src/main/java/com/chenhm/java8/lambda/LambdaDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uml/src/main/java/uml-class-demo.puml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.2.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/study.iml" afterPath="$PROJECT_DIR$/study.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.settings/" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/dubbo/consumer/out/" />
-    <ignored path="$PROJECT_DIR$/dubbo/provider/impl/out/" />
-    <ignored path="$PROJECT_DIR$/dubbo/provider/share/out/" />
-    <ignored path="$PROJECT_DIR$/zookeeper/out/" />
-    <ignored path="$PROJECT_DIR$/spring/out/" />
-    <ignored path="$PROJECT_DIR$/mini-dubbo/bean/out/" />
-    <ignored path="$PROJECT_DIR$/mini-dubbo/registy/out/" />
-    <ignored path="$PROJECT_DIR$/mini-dubbo/test/out/" />
-    <ignored path="$PROJECT_DIR$/common/out/" />
-    <ignored path="$PROJECT_DIR$/mini-dubbo/rpc/out/" />
-    <ignored path="$PROJECT_DIR$/mini-dubbo/base/out/" />
+    <ignored path="$PROJECT_DIR$/java-base/out/" />
+    <ignored path="$PROJECT_DIR$/uml/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,126 +36,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/study$SpringBeanTest_initBean.coverage" NAME="SpringBeanTest.initBean Coverage Results" MODIFIED="1515143836253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.chenhm.test.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/study$SpringAopTest_updateInfo.coverage" NAME="SpringAopTest.updateInfo Coverage Results" MODIFIED="1515130851396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.chenhm.valid.*</FILTER>
-    </SUITE>
-  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/mini-dubbo/bean">
-          <activation />
-        </task>
-        <task path="$PROJECT_DIR$/mini-dubbo/rpc">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="study" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="study" type="f1a62948:ProjectNode" />
-                <item name="study" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="study" type="f1a62948:ProjectNode" />
-                <item name="study" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="study" type="f1a62948:ProjectNode" />
-                <item name="study" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="study" type="f1a62948:ProjectNode" />
-                <item name=":mini-dubbo-base" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="study" type="f1a62948:ProjectNode" />
-                <item name=":mini-dubbo-base" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="study" type="f1a62948:ProjectNode" />
-                <item name=":mini-dubbo-base" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="study" type="f1a62948:ProjectNode" />
-                <item name=":mini-dubbo-base" type="2d1252cf:ModuleNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PharmacistInfoDTO.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.weiyi.pharmacy/cloud-pharmacy-ops-service-share/1.0.0-SNAPSHOT/d04736d127ca9d2665348ae77f45a91b58c0f8c5/cloud-pharmacy-ops-service-share-1.0.0-SNAPSHOT-sources.jar!/com/weiyi/pharmacy/service/share/pharmacist/dto/PharmacistInfoDTO.java">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PharmacistInfoService.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.weiyi.pharmacy/cloud-pharmacy-ops-service-share/1.0.0-SNAPSHOT/46ae8f39cf9caaf7c1a1efeab7b7b866d8944ccd/cloud-pharmacy-ops-service-share-1.0.0-SNAPSHOT-sources.jar!/com/weiyi/pharmacy/service/share/pharmacist/PharmacistInfoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,23 +55,8 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Kotlin File" />
-        <option value="FxmlFile" />
-        <option value="JUnit4 Test Class" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Registry</find>
-      <find>r</find>
-      <find>ref</find>
-    </findStrings>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -195,6 +83,14 @@
               <ExternalProjectPojo>
                 <option name="name" value="study" />
                 <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":java-base" />
+                <option name="path" value="$PROJECT_DIR$/java-base" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":uml" />
+                <option name="path" value="$PROJECT_DIR$/uml" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -271,7 +167,7 @@
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'study'." />
+                <option name="description" value="Displays the tasks runnable from root project 'study' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -351,1449 +247,287 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/common">
+        <entry key="$PROJECT_DIR$/java-base">
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="cleanAll" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':common'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="description" value="Displays the components produced by project ':java-base'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':common'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="description" value="Displays the sub-projects of project ':java-base'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':common'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="description" value="Displays the dependent components of components in project ':java-base'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':common'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="description" value="Displays all buildscript dependencies declared in project ':java-base'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="testClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':common'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="description" value="Displays the configuration model of project ':java-base'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':common'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="description" value="Displays the tasks runnable from project ':java-base'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="initSourceFolders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':common'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="description" value="Displays the insight into a specific dependency in project ':java-base'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':common'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="description" value="Displays all dependencies declared in project ':java-base'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':common'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/common" />
+                <option name="description" value="Displays the properties of project ':java-base'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/java-base" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/dubbo/consumer">
+        <entry key="$PROJECT_DIR$/uml">
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="cleanAll" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':consumer'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="description" value="Displays the components produced by project ':uml'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':consumer'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="description" value="Displays the sub-projects of project ':uml'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':consumer'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="description" value="Displays the dependent components of components in project ':uml'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':consumer'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="description" value="Displays all buildscript dependencies declared in project ':uml'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="testClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':consumer'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="description" value="Displays the configuration model of project ':uml'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':consumer'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="description" value="Displays the tasks runnable from project ':uml'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="init" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="initSourceFolders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':consumer'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="description" value="Displays the insight into a specific dependency in project ':uml'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':consumer'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="description" value="Displays all dependencies declared in project ':uml'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':consumer'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/consumer" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/dubbo/provider/impl">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="cleanAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':provider-share-impl'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':provider-share-impl'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':provider-share-impl'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':provider-share-impl'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':provider-share-impl'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':provider-share-impl'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="initSourceFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':provider-share-impl'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':provider-share-impl'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':provider-share-impl'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/dubbo/provider/share">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="cleanAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':provider-share-service'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':provider-share-service'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':provider-share-service'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':provider-share-service'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':provider-share-service'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':provider-share-service'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="initSourceFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="buildShareJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':provider-share-service'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="publishShare" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':provider-share-service'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="install" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uploads all artifacts belonging to configuration ':provider-share-service:archives'" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="uploadArchives" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':provider-share-service'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dubbo/provider/share" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/mini-dubbo/base">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="cleanAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':mini-dubbo-base'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':mini-dubbo-base'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':mini-dubbo-base'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':mini-dubbo-base'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':mini-dubbo-base'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':mini-dubbo-base'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="initSourceFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':mini-dubbo-base'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':mini-dubbo-base'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':mini-dubbo-base'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/base" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/mini-dubbo/bean">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="cleanAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':mini-dubbo-bean'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':mini-dubbo-bean'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':mini-dubbo-bean'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':mini-dubbo-bean'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':mini-dubbo-bean'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':mini-dubbo-bean'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="initSourceFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':mini-dubbo-bean'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':mini-dubbo-bean'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':mini-dubbo-bean'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/mini-dubbo/registy">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="cleanAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':mini-dubbo-registy'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':mini-dubbo-registy'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':mini-dubbo-registy'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':mini-dubbo-registy'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':mini-dubbo-registy'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':mini-dubbo-registy'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="initSourceFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':mini-dubbo-registy'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':mini-dubbo-registy'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':mini-dubbo-registy'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/mini-dubbo/rpc">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="cleanAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':mini-dubbo-rpc'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':mini-dubbo-rpc'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':mini-dubbo-rpc'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':mini-dubbo-rpc'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':mini-dubbo-rpc'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':mini-dubbo-rpc'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="initSourceFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':mini-dubbo-rpc'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':mini-dubbo-rpc'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':mini-dubbo-rpc'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/mini-dubbo/test">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="cleanAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':mini-dubbo-test'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':mini-dubbo-test'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':mini-dubbo-test'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':mini-dubbo-test'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':mini-dubbo-test'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':mini-dubbo-test'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="initSourceFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':mini-dubbo-test'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':mini-dubbo-test'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':mini-dubbo-test'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/mini-dubbo/test" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/zookeeper">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="cleanAll" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':zookeeper'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':zookeeper'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':zookeeper'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':zookeeper'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':zookeeper'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':zookeeper'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="initSourceFolders" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':zookeeper'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':zookeeper'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':zookeeper'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/zookeeper" />
+                <option name="description" value="Displays the properties of project ':uml'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/uml" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -1803,9 +537,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3033219767305" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3647186363" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="2497227217" />
+        <entry key="$PROJECT_DIR$" value="3033556922980" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1822,80 +554,17 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
-                  <entry key="$PROJECT_DIR$/common">
+                  <entry key="$PROJECT_DIR$/java-base">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/common" />
+                        <option name="path" value="$PROJECT_DIR$/java-base" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
-                  <entry key="$PROJECT_DIR$/dubbo/consumer">
+                  <entry key="$PROJECT_DIR$/uml">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/dubbo/consumer" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/dubbo/provider/impl">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/dubbo/provider/impl" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/dubbo/provider/share">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/dubbo/provider/share" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/mini-dubbo/base">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/mini-dubbo/base" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/mini-dubbo/bean">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/mini-dubbo/bean" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/mini-dubbo/registy">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/mini-dubbo/registy" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/mini-dubbo/rpc">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/mini-dubbo/rpc" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/mini-dubbo/test">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/mini-dubbo/test" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/spring">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/spring" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                  <entry key="$PROJECT_DIR$/zookeeper">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="path" value="$PROJECT_DIR$/zookeeper" />
+                        <option name="path" value="$PROJECT_DIR$/uml" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -2056,74 +725,11 @@
       <projects_view />
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/common/src/main/java/com/chenhm/common/invoker/DefaultInvoker.java" />
-        <option value="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar!/javassist/CtField.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/chenhm/common/proxy/Proxy.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/chenhm/common/handler/DemoInvocationHandler.java" />
-        <option value="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar!/javassist/bytecode/FieldInfo.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/chenhm/common/ProxyTest.java" />
-        <option value="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar!/javassist/ClassPool.java" />
-        <option value="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java" />
-        <option value="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar!/javassist/CtNewConstructor.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/chenhm/common/DemoTestImpl.java" />
-        <option value="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar!/javassist/CtBehavior.java" />
-        <option value="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar!/javassist/bytecode/MethodInfo.java" />
-        <option value="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar!/javassist/bytecode/Descriptor.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/util/ReflectUtils.java" />
-        <option value="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java" />
-        <option value="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java" />
-        <option value="E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/d8fdc08a455bc0b28bc0bed1f0d032d935cee8e1/javassist-3.20.0-GA-sources.jar!/javassist/CtNewMethod.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/test/java/com/chenhm/bean/bytecode/ClassGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/model/BeanTest.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/test/java/com/chenhm/test/SpringBeanTest.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/proxy/Proxy.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/bytecode/ClassGenerator.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/invocation/Invocation.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/invocation/RpcInvocation.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/invoker/DubboInvocationHandler.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/result/Result.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/result/RpcResult.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/invoker/AbstractInvoker.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/config/ReferenceConfig.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/test/java/com/chenhm/bean/proxy/ProxyTest.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/netty/ShellRun.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/netty/Request.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/netty/MarshallingCodeCFactory.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/netty/MarshallingCodecFactory.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/netty/server/NettyServer.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/netty/handler/DubboClientHandler.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/netty/listener/DubboChannelFutureListener.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/netty/handler/DubboHandler.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/netty/Response.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/netty/client/NettyClient.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/client/Client.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/client/AbstractClient.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/object/URL.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/util/UrlUtils.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/client/NettyClient.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/invoker/JavassistInvoker.java" />
-        <option value="$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/ShellRun.java" />
-        <option value="$PROJECT_DIR$/dubbo/consumer/src/test/java/com/chenhm/valid/SpringAopTest.java" />
-        <option value="$PROJECT_DIR$/dubbo/consumer/src/main/java/com/chenhm/valid/SpringAop.java" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1358" />
@@ -2137,7 +743,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages ProjectPane="true" />
+      <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -2146,8 +752,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -2156,51 +760,26 @@
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-excluded-files" value="false" />
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.33103448" />
-    <property name="last_opened_file_path" value="D:/workspace/area-cloud-hospital-ops" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.chenhm.bean.proxy" />
-      <recent name="com.chenhm.bean.bytecode" />
-      <recent name="com.chenhm.valid" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github\study\mini-dubbo\bean\src\main\resources" />
-      <recent name="D:\github\study\mini-dubbo\bean\src\test\resources" />
-      <recent name="D:\github\study\mini-dubbo\bean\src\test\java" />
-      <recent name="D:\github\study\mini-dubbo\registy\src\test\resources" />
-      <recent name="D:\github\study\mini-dubbo\registy\src\test" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.chenhm.bean.util" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\github\study\mini-dubbo\registy\src\test\java" />
-      <recent name="D:\github\study\spring\src\test\resources\spring" />
-      <recent name="D:\github\study\spring\src\main\resources" />
       <recent name="D:\github\study" />
-      <recent name="D:\github\study\spring\src\main\resources\META-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2215,107 +794,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.study [initSourceFolders]">
-    <configuration name="SpringAopTest.del" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.chenhm.valid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="consumer_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.chenhm.valid" />
-      <option name="MAIN_CLASS_NAME" value="com.chenhm.valid.SpringAopTest" />
-      <option name="METHOD_NAME" value="del" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/dubbo/consumer" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SpringAopTest.getBypharmacistId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.chenhm.valid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="consumer_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.chenhm.valid" />
-      <option name="MAIN_CLASS_NAME" value="com.chenhm.valid.SpringAopTest" />
-      <option name="METHOD_NAME" value="getBypharmacistId" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/dubbo/consumer" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SpringAopTest.hospitalList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.chenhm.valid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="consumer_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.chenhm.valid" />
-      <option name="MAIN_CLASS_NAME" value="com.chenhm.valid.SpringAopTest" />
-      <option name="METHOD_NAME" value="hospitalList" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/dubbo/consumer" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="SpringAopTest.pharmacistList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.chenhm.valid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="consumer_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.chenhm.valid" />
-      <option name="MAIN_CLASS_NAME" value="com.chenhm.valid.SpringAopTest" />
-      <option name="METHOD_NAME" value="pharmacistList" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/dubbo/consumer" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -2396,171 +875,59 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="study [initSourceFolders]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="initSourceFolders" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.study [initSourceFolders]" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SpringAopTest.del" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SpringAopTest.pharmacistList" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SpringAopTest.getBypharmacistId" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SpringAopTest.hospitalList" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringAopTest.hospitalList" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SpringAopTest.getBypharmacistId" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringAopTest.pharmacistList" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SpringAopTest.del" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.study [initSourceFolders]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="50026d87-088d-4148-b91c-4e63503d91db" name="Default" comment="" />
-      <created>1514365492437</created>
+      <changelist id="adc45dcb-c688-45da-a535-b34302ba5402" name="Default" comment="" />
+      <created>1518166264289</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1514365492437</updated>
-      <workItem from="1514365495210" duration="3531000" />
-      <workItem from="1514428421035" duration="2747000" />
-      <workItem from="1514455204590" duration="12324000" />
-      <workItem from="1514878762620" duration="17673000" />
-      <workItem from="1515056789630" duration="8054000" />
-      <workItem from="1515121908511" duration="22653000" />
-      <workItem from="1515209061453" duration="67249000" />
-      <workItem from="1515724772854" duration="3474000" />
-      <workItem from="1515999096100" duration="750000" />
-      <workItem from="1516606299631" duration="620000" />
-      <workItem from="1516609820941" duration="115000" />
+      <updated>1518166264289</updated>
+      <workItem from="1518166267342" duration="58000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="ProxyTest_proxy - 2018.01.09 at 17h 09m 36s.xml">
-      <configuration name="ProxyTest.proxy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProxyTest_proxy - 2018.01.09 at 17h 11m 46s.xml">
-      <configuration name="ProxyTest.proxy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringAopTest_del - 2018.01.11 at 12h 30m 24s.xml">
-      <configuration name="SpringAopTest.del" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringAopTest_del - 2018.01.11 at 12h 31m 15s.xml">
-      <configuration name="SpringAopTest.del" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringAopTest_del - 2018.01.11 at 12h 31m 39s.xml">
-      <configuration name="SpringAopTest.del" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringAopTest_getBypharmacistId - 2018.01.12 at 16h 49m 46s.xml">
-      <configuration name="SpringAopTest.getBypharmacistId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringAopTest_hospitalList - 2018.01.15 at 14h 54m 05s.xml">
-      <configuration name="SpringAopTest.hospitalList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringAopTest_pharmacistList - 2018.01.12 at 16h 43m 49s.xml">
-      <configuration name="SpringAopTest.pharmacistList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringAopTest_pharmacistList - 2018.01.12 at 16h 44m 23s.xml">
-      <configuration name="SpringAopTest.pharmacistList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringAopTest_pharmacistList - 2018.01.12 at 16h 45m 46s.xml">
-      <configuration name="SpringAopTest.pharmacistList" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139190000" />
+    <option name="totallyTimeSpent" value="58000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53369564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26812366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32782516" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53369564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36384267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32782516" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -2569,400 +936,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.10.RELEASE/eb22a9c7f612da75e9234cf089c2069e32f44b3c/spring-beans-4.3.10.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java</url>
-          <line>452</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/tools/user/java/jdk1.8/src.zip!/com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl.java</url>
-          <line>513</line>
-          <properties />
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.6/33cbe053547bca23a3e99265ec4421ade9055420/dubbo-2.5.6-sources.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyClientHandler.java</url>
-          <line>85</line>
-          <properties />
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.alibaba/dubbo/2.5.6/33cbe053547bca23a3e99265ec4421ade9055420/dubbo-2.5.6-sources.jar!/com/alibaba/dubbo/remoting/transport/netty4/NettyClientHandler.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="100" />
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="list.data.get(7)" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/channel/ChannelHandlerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/channel/ChannelOutboundInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="229" column="18" lean-forward="false" selection-start-line="229" selection-start-column="18" selection-end-line="229" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-example/4.1.19.Final/b3d29cb5026eaf848a62e342b42d780b0520a93a/netty-example-4.1.19.Final-sources.jar!/io/netty/example/echo/EchoClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-example/4.1.19.Final/b3d29cb5026eaf848a62e342b42d780b0520a93a/netty-example-4.1.19.Final-sources.jar!/io/netty/example/echo/EchoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-example/4.1.19.Final/b3d29cb5026eaf848a62e342b42d780b0520a93a/netty-example-4.1.19.Final-sources.jar!/io/netty/example/echo/EchoServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="25" column="67" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-example/4.1.19.Final/b3d29cb5026eaf848a62e342b42d780b0520a93a/netty-example-4.1.19.Final-sources.jar!/io/netty/example/redis/RedisClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-example/4.1.19.Final/b3d29cb5026eaf848a62e342b42d780b0520a93a/netty-example-4.1.19.Final-sources.jar!/io/netty/example/echo/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="46" column="14" lean-forward="false" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/util/concurrent/GenericFutureListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/channel/ChannelFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="185" column="18" lean-forward="false" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/user/java/jdk1.8/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5542">
-          <caret line="526" column="26" lean-forward="false" selection-start-line="526" selection-start-column="26" selection-end-line="526" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-example/4.1.19.Final/b3d29cb5026eaf848a62e342b42d780b0520a93a/netty-example-4.1.19.Final-sources.jar!/io/netty/example/uptime/UptimeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/channel/ChannelFutureListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/handler/codec/string/StringDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="69" column="11" lean-forward="false" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/handler/codec/serialization/ObjectDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="183" column="60" lean-forward="false" selection-start-line="183" selection-start-column="60" selection-end-line="183" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="232" column="31" lean-forward="false" selection-start-line="232" selection-start-column="31" selection-end-line="232" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/handler/codec/marshalling/MarshallingDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/server/NettyServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="68" column="91" lean-forward="false" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/handler/DubboHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/MarshallingCodecFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/handler/codec/marshalling/MarshallingEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/listener/DubboChannelFutureListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/handler/DubboClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/channel/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="152" column="18" lean-forward="false" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.19.Final/3e4fb308823e62f23d0c19c8f923b232e091429c/netty-all-4.1.19.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3749">
-          <caret line="328" column="25" lean-forward="false" selection-start-line="328" selection-start-column="25" selection-end-line="328" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/client/AbstractClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/base/src/main/java/com/chenhm/base/object/URL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="69" column="35" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/tools/user/java/jdk1.8/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/base/src/main/java/com/chenhm/base/util/UrlUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="80" column="36" lean-forward="false" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/client/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/exporter/Exporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/invocation/Invocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/invocation/RpcInvocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/invoker/AbstractInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/rpc/src/main/java/com/chenhm/rpc/ShellRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/base/src/main/java/com/chenhm/base.java" />
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/invoker/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/invoker/JavassistInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/bean/src/main/java/com/chenhm/bean/proxy/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini-dubbo/bean/src/test/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.weiyi.pharmacy/cloud-pharmacy-ops-service-share/1.0.0-SNAPSHOT/46ae8f39cf9caaf7c1a1efeab7b7b866d8944ccd/cloud-pharmacy-ops-service-share-1.0.0-SNAPSHOT-sources.jar!/com/weiyi/pharmacy/service/share/pharmacist/PharmacistInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/gradle/gradle-4.2.1/caches/modules-2/files-2.1/com.weiyi.pharmacy/cloud-pharmacy-ops-service-share/1.0.0-SNAPSHOT/d04736d127ca9d2665348ae77f45a91b58c0f8c5/cloud-pharmacy-ops-service-share-1.0.0-SNAPSHOT-sources.jar!/com/weiyi/pharmacy/service/share/pharmacist/dto/PharmacistInfoDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo/consumer/src/test/java/com/chenhm/valid/SpringAopTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dubbo/consumer/src/main/java/com/chenhm/valid/SpringAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/chenhm/common/handler/DemoInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2970,65 +951,6 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33103448" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>consumer</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33103448" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -3036,18 +958,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Gradle: ch.qos.logback:logback-classic:1.1.2</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.33103448" />
               </list>
             </option>
           </splitter-proportions>

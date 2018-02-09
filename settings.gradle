@@ -1,4 +1,10 @@
 rootProject.name = 'study'
 
+include 'java-base'
+include 'uml'
 
+
+
+findProject(":java-base")?.name="java-base"
+findProject(":uml")?.name="uml"
 

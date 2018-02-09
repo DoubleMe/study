@@ -1,0 +1,25 @@
+@startuml
+
+note "This is a demo note" as N1
+note "This note is connected\nto several objects." as N2
+interface Demo{
+
+    +sendMessage();
+    -sendMessage();
+    #sendMessage();
+    {abstract} ~sendMessage();
+}
+
+class DemoImpl{
+  String data
+  {static} void sendMessage() : 静态方法
+  {abstract} void equals() 抽象方法
+}
+
+
+Demo <|-- DemoImpl : 实现
+Demo <.. DemoImpl : 依赖
+Demo .. N1
+DemoImpl .. N2
+
+@enduml
