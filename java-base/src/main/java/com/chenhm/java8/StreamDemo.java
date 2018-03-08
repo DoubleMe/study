@@ -74,7 +74,6 @@ public class StreamDemo {
 
         System.out.println(reduce1.orElse(0));
 
-        Stream.generate(() -> new Student()).
 
 
     }

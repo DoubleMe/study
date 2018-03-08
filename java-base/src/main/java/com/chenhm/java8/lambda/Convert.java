@@ -11,8 +11,7 @@ public interface Convert<T,R> {
     /**
      * 对象转换
      * @param t
-     * @param <R>
-     * @return
+     * @return R
      */
     R convert(T t);
 }
