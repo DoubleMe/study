@@ -1,7 +1,7 @@
 group 'com.chenhm'
 version '1.0-SNAPSHOT'
 
-allprojects {
+subprojects {
     apply plugin: 'java'
     apply plugin: 'idea'
 
@@ -64,6 +64,10 @@ allprojects {
         compile("org.springframework:spring-context-support:4.2.7.RELEASE")
         compile('org.springframework:spring-web:4.2.7.RELEASE')
         compile("org.springframework:spring-webmvc:4.2.7.RELEASE")
+        compile('org.springframework:spring-tx:4.2.7.RELEASE')
+        compile('org.springframework:spring-core:4.2.7.RELEASE')
+        compile('javax.transaction:jta:1.1')
+
 
         compile("org.apache.zookeeper:zookeeper:3.4.11")
         compile("com.github.sgroschupf:zkclient:0.1")
@@ -73,5 +77,6 @@ allprojects {
     }
 
 }
+
 
 

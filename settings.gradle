@@ -1,10 +1,12 @@
 rootProject.name = 'study'
 
 include 'java-base'
-include 'uml'
-
-
+include 'dubbo'
+include 'design'
+include 'algorithm'
 
 findProject(":java-base")?.name="java-base"
-findProject(":uml")?.name="uml"
+findProject(":dubbo")?.name="dubbo"
+findProject(":design")?.name="design"
+findProject(":algorithm")?.name="algorithm"
 
